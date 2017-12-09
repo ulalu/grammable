@@ -11,7 +11,7 @@ RSpec.describe CommentsController, type: :controller do
             
             expect(response).to redirect_to root_path
             expect(gram.comments.length).to eq 1
-            expect(gram.comments.first.message).to eq "awesome gram"
+            expect(gram.comments.first.message).to eq "cool gram dude"
         end
         
         it "should only allow authorized users to create comments" do
