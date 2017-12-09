@@ -57,9 +57,15 @@ group :development, :test do
   gem "factory_bot_rails"
 end
 
-gem 'bootstrap-sass', '~> 3.3.7'
+
 gem 'simple_form'
 gem 'devise'
 gem 'carrierwave', '~> 1.0'
 gem "figaro"
 gem "fog-aws"
+gem 'popper_js', '~> 1.11.1'
+gem 'bootstrap', '4.0.0.alpha6'
+
+source 'https://rails-assets.org' do
+  gem 'rails-assets-tether', '>= 1.3.3'
+end
