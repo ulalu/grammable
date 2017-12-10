@@ -59,3 +59,51 @@ body {
   font-size: 16px;
   margin-right: 20px;
 }
+
+.card.form {
+    padding: 50px;
+}
+
+label {
+    font-size: 18px;
+}
+
+input {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.my-btn {
+    background-color: #125688;
+    width: 100%;
+    border: none;
+    font-size: 24px;
+    color: white;
+    margin-top: 10px;
+}
+
+.input.boolean {
+  margin-left: 18px;
+  margin-top: 5px;
+}
+
+.input.boolean label {
+  margin-top: 5px;
+  line-height: 44px;
+}
+
+.comments {
+    padding: 20px;
+    font-size: 12px;
+}
+
+.comment {
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+.comment_handle {
+  color: #125688;
+  font-weight: bold;
+  font-size: 12px;
+}
